@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
 }
 /* shared style */
-.navbar, .banner-info, .notes{
+.navbar, .banner-info, .notes, .solution{
     width: 85%;
     max-width: 1360px;
 }
@@ -107,7 +107,7 @@
 /* notes section */
 .notes{
 border: 1px solid red;
-margin: 100px auto 100px;
+margin: 100px auto 50px;
 }
 .notes-heading{
     color: rgba(0, 25, 49, 1);
@@ -129,7 +129,7 @@ margin: 100px auto 100px;
     width: 250px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
-    
+
 }
 .card-heading{
     color: rgba(0, 25, 49, 1);
@@ -142,4 +142,45 @@ margin: 100px auto 100px;
 .card-para{
     color: rgba(98, 115, 130, 1);
     text-align: center;
+}
+/* solution section */
+.solution{
+    border: 1px solid red;
+    margin: 0 auto 50px;
+    height: 500px;
+}
+.image-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    border: 1px solid rebeccapurple;
+    margin: 49px 0;
+}
+.solution-info{
+    border: 1px solid red;
+    /* padding: 30px 0; */
+}
+.solution-heading{
+    color: rgba(70, 145, 101, 1);
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 16px;
+    padding-top: 20px;
+}
+.solution-heading-two{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding-bottom: 16px;
+}
+.solution-para{
+    color: rgba(98, 115, 130, 1);
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+.solution-check-para{
+    color: rgba(0, 25, 49, 1);
+    font-weight: 500;
+    line-height: 20px;
 }
